@@ -1,0 +1,460 @@
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+
+    .hero-explore-all {
+        gap: 14px;
+    }
+
+    .hero-container {
+        max-width: 335px;
+        margin: 0 auto;
+
+    }
+
+    .hero-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+
+    .hero-title {
+        width: 332px;
+        height: 120px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.10;
+        letter-spacing: -1.62px;
+    }
+
+    .hero-text-exp {
+        padding-top: 14px;
+        width: 335px;
+        /* height: 100px; */
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.40;
+        letter-spacing: -0.28px;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+    }
+
+    .hero-btn {
+        min-width: 130px;
+        height: 43px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+        padding: 14px 28px;
+        border-radius: 60px;
+        background: #93ABAE;
+        border: none;
+        cursor: pointer;
+    }
+
+    .hero-btn-exp {
+        min-width: 104px;
+        height: 43px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+        padding: 14px 28px;
+        border-radius: 60px;
+        border: 1px solid #F6F5EF;
+        background-color: transparent;
+        display: inline-flex;
+        text-decoration: none;
+    }
+
+    .hero {
+        display: block;
+        width: 335px;
+        height: 427px;
+        flex-shrink: 0;
+        background-image: url(../image/hero/mask-group.png);
+        margin: 0 auto;
+
+    }
+
+    .yacht-man {
+        position: relative;
+        left: 95px;
+        background: lightgray;
+        border-radius: 24px;
+    }
+
+    .yacht-img {
+        position: relative;
+        z-index: 1;
+        max-width: 287px;
+        height: 167px;
+        left: 24px;
+        top: -15px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .heros {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .hero-title {
+        width: 698px;
+        height: 132px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.10;
+        letter-spacing: -2.7px;
+
+    }
+
+    .hero-title span {
+        background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.10;
+        letter-spacing: -2.7px;
+    }
+
+    .hero-text-exp {
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.40;
+        letter-spacing: -0.32px;
+        width: 539px;
+    }
+
+    .hero-buttons {
+        padding-top: 32px;
+    }
+
+    .hero-btn {
+        min-width: 150px;
+        height: 48px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+        padding: 14px 28px;
+        border-radius: 60px;
+        background: #93ABAE;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .hero-btn-exp {
+        min-width: 117px;
+        height: 48px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+        padding: 14px 28px;
+        border-radius: 60px;
+        border: 1px solid #F6F5EF;
+        background-color: transparent;
+        display: inline-flex;
+        text-decoration: none;
+    }
+
+    .hero {
+        display: block;
+        width: 426px;
+        height: 598px;
+        background-image: url(../image/hero/mask.png);
+        position: absolute;
+    }
+
+    .yacht-man {
+        width: 233px;
+        height: 233px;
+        left: 158px;
+    }
+
+    .yacht-img {
+        position: relative;
+        z-index: 1;
+        max-width: 378px;
+        height: 221px;
+        top: -40px;
+    }
+
+    .hero-book {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        width: 362px;
+        margin: auto;
+    }
+
+    .hero-title-price {
+        color: #11131F;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.10;
+        letter-spacing: -2.7px;
+        text-transform: uppercase;
+    }
+
+    .hero-text-price {
+        color: #11131F;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+    }
+}
+
+
+@media screen and (min-width: 1245px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .hero-container {
+        float: right;
+        width: 50%;
+        margin-top: 85px;
+    }
+
+    .hero-explore {
+        gap: 16px;
+    }
+
+    .container {
+        max-width: 1280px;
+        padding-right: 15px;
+    }
+
+    .heros {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .hero-list-wrap {
+        width: 149px;
+    }
+
+
+
+    .hero {
+        max-width: 426px;
+        height: 598px;
+        margin-top: 50px;
+        background-image: url(../image/hero/mask.png);
+        background-size: cover;
+    }
+
+    .hero-clients {
+        padding-top: 24px;
+        padding-left: 24px;
+        display: flex;
+    }
+
+    .yacht-man {
+        border-radius: 24px;
+        z-index: 2;
+    }
+
+    .hero-clients-three {
+        max-width: 149px;
+        height: 56px;
+    }
+
+    .hero-text {
+        color: #11131F;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: 0.56px;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+
+    .yacht-img {
+        position: relative;
+        z-index: 1;
+        max-width: 378px;
+        height: 221px;
+        top: -36px;
+    }
+
+    .hero-book {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-left: 32px;
+    }
+
+    .hero-text-price {
+        width: 208px;
+        height: 36px;
+    }
+
+    .hero-explore {
+        flex-direction: column;
+    }
+
+    .hero-text-exp {
+        width: 539px;
+        padding-top: 16px;
+    }
+
+    .hero-title-price {
+        color: #11131F;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.10;
+        letter-spacing: -2.7px;
+        text-transform: uppercase;
+    }
+
+    .hero-text-price {
+        color: #11131F;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+    }
+
+    .hero-title {
+        width: 554px;
+        height: 198px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.10;
+        letter-spacing: -2.7px;
+    }
+
+    .hero-title span {
+        background: linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%);
+        background-clip: text;
+        /* text-overflow: clip; */
+        -webkit-background-clip: text;
+        /* -webkit-text-fill-color: transparent; */
+        font-family: DM Sans;
+        color: transparent;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 1.10;
+        letter-spacing: -2.7px;
+        padding-right: 7px;
+    }
+
+    .hero-text-exp {
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.40;
+        letter-spacing: -0.32px;
+    }
+
+    .hero-buttons {
+        /* padding-top: 32px; */
+    }
+
+    .hero-btn {
+        min-width: 150px;
+        height: 48px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+        padding: 14px 28px;
+        border-radius: 60px;
+        background: #93ABAE;
+        border: none;
+        margin-right: 11px;
+        cursor: pointer;
+    }
+
+    .hero-btn-exp {
+        min-width: 117px;
+        height: 48px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        letter-spacing: -0.81px;
+        padding: 14px 28px;
+        border-radius: 60px;
+        border: 1px solid #F6F5EF;
+        background-color: transparent;
+        display: inline-flex;
+        text-decoration: none;
+    }
+
+    .hero-btn-exp:hover {
+        border: 1px solid #93ABAE;
+        color: #93ABAE;
+    }
+
+    .hero-btn:hover {
+        background: #88B3B9;
+    }
+}
